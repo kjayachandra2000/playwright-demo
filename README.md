@@ -17,6 +17,18 @@ This project demonstrates the use of Playwright for end-to-end testing of web ap
    npm install
    ```
 
+### Using nvm (Node Version Manager)
+It is recommended to use `nvm` to manage your Node.js versions. To install and use the correct Node.js version:
+1. Install `nvm` by following the instructions [here](https://github.com/nvm-sh/nvm#installing-and-updating).
+2. Install the required Node.js version:
+   ```bash
+   nvm install
+   ```
+3. Use the installed Node.js version:
+   ```bash
+   nvm use
+   ```
+
 ## Usage
 Run the tests using the following command:
 ```bash
@@ -31,6 +43,7 @@ npx playwright test
    ```
 3. Commit your changes:
    ```bash
+   git commit add .
    git commit -m "Description of changes"
    ```
 4. Push to your branch:
